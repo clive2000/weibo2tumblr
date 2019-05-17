@@ -35,7 +35,7 @@ pip install -r requirements.txt
 source ./env/bin/activate
 ```
 
-1. In *main.py*, replace `API_KEY` with your Sina weibo API Key, Reokace `consumer_key`,`consumer_secret`,`oauth_token`,`oauth_secret` with your tumblr oath information. Replace `EMAIL`,`PASSWORD` in `STREAMABLE_AUTH = HTTPBasicAuth('<EMAIL>', '<PASSWORD>')` with your streamable credentials. 
+1. In *main.py*, replace `API_KEY` with your Sina weibo API Key, Replace `consumer_key`,`consumer_secret`,`oauth_token`,`oauth_secret` with your tumblr oath information. Replace `EMAIL`,`PASSWORD` in `STREAMABLE_AUTH = HTTPBasicAuth('<EMAIL>', '<PASSWORD>')` with your streamable credentials. 
 
 2. Install and set up gcloud in your operating system. You can follow the guide at https://cloud.google.com/sdk/docs/quickstart-linux
 
