@@ -27,7 +27,15 @@ Weibo API is needed to retrive tweet content from Sina weibo. Tumblr API is need
 
 ## Deployment
 
-1. In *main.py*, replace `API_KEY` with your Sina weibo API Key, Reokace `consumer_key`,`consumer_secret`,`oauth_token`,`oauth_secret` with your tumblr oath information. Replace `EMAIL`,`PASSWORD` in `STREAMABLE_AUTH = HTTPBasicAuth('<EMAIL>', '<PASSWORD>')` with your streamable credentials.
+0. Clone this git repo. In the repo, create a python virtualenv.
+
+```bash
+virtualenv --python python3 env
+pip install -r requirements.txt
+source ./env/bin/activate
+```
+
+1. In *main.py*, replace `API_KEY` with your Sina weibo API Key, Reokace `consumer_key`,`consumer_secret`,`oauth_token`,`oauth_secret` with your tumblr oath information. Replace `EMAIL`,`PASSWORD` in `STREAMABLE_AUTH = HTTPBasicAuth('<EMAIL>', '<PASSWORD>')` with your streamable credentials. 
 
 2. Install and set up gcloud in your operating system. You can follow the guide at https://cloud.google.com/sdk/docs/quickstart-linux
 
